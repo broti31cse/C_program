@@ -1,3 +1,4 @@
+/* Write a program in c to implementation of single linked list*/
 #include <stdio.h>
 #include <stdlib.h>
 
