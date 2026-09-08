@@ -1,5 +1,13 @@
-#include <stdio.h>
+/* An online shop keeps its product catalogue sorted by Product ID (number) in ascending order. When a customer searches for a specific
+Product ID, the system returns true if the Product ID is present in the catalogue; otherwise, it returns false. The system should return the Product 
+ID quickly from the sorted catalogue. Which searching technique is used to find the Product 
+ID quickly from the catalogue? Implement this searching method using a function. The function should take three parameters: Product ID list, size of the product list,
+and the Product ID to be searched.
+[2,8, 9, 16, 18, 26, 38, 48, 51, 90]*/
 
+Case 1: Search 26
+Case 2: Search 49 */
+#include <stdio.h>
 int binarySearch(int arr[], int n, int key)
 {
     int low = 0, high = n - 1, mid;
