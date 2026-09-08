@@ -1,3 +1,7 @@
+/*In a library, books are stored using an access number. The access number is a whole number consisting of a maximum of 3 digits.
+    Consider an array containing the access numbers of the books are stored in unorganized fasion. Write a program to search for a specific access number using an
+    appropriate searching technique.
+    Sample Input: [101, 20, 49, 385, 210, 620, 85, 212, 12, 206]*/
 #include <stdio.h>
 void linearSearch(int arr[], int n, int key)
 {
