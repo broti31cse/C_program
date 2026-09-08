@@ -1,5 +1,10 @@
-#include <stdio.h>
+/*A class teacher has a list of marks of 10th students in a random fashion. All the marks are whole numbers. Before publishing the result, the teacher
+wants to arrange the marks in an order so that the rank of the students can easily be deleted.
+Use a method to order the marks in ascending order. Which method is used here? Implement the method using C.
+Sample Input:
+[99, 85, 58, 77, 46, 80, 78, 65, 42, 55]*/
 
+#include <stdio.h>
 int main()
 {
     int marks[] = {92, 85, 58, 71, 46, 80, 76, 64, 49, 57};
