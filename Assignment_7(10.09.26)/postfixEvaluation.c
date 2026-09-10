@@ -1,3 +1,6 @@
+/*A basic calculator needs to evaluate expression already written in postfix form requirements:
+evaluate given postfix expression.
+input 62+3* */
 #include <stdio.h>
 #include <ctype.h>
 
