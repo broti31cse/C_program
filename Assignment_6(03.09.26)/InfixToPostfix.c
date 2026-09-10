@@ -1,3 +1,7 @@
+/*A simple calculator receives an infix expression. It must :
+1. Convert infix expression to postfix
+2. Evaluate the postfix expression. 
+Sample input : 3+4*5* */
 #include <stdio.h>
 #include <ctype.h>
 
